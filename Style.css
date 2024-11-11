@@ -44,7 +44,7 @@ section p {
 @media (max-width: 650px) {
     section {
         padding: 15px;
-        max-width: 350px; /* Slightly smaller max width for smaller screens */
+        max-width: 320px; /* Slightly smaller max width for smaller screens */
     }
 
     section img {
