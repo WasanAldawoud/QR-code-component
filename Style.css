@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     background: #d5e1ef;
     margin: 0;
@@ -14,7 +14,9 @@ section {
     background: #fff;
     border-radius: 20px;
     border: 2px solid #fff;
-    max-width: 410px; /* Limit width without stretching on larger screens */
+    width: 50%; 
+    max-width: 410px; 
+    min-width: 300px; 
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -22,8 +24,8 @@ section {
 }
 
 section img {
-    width: 100%;
-    max-width: 400px; /* Keep image within the section width */
+    width: 100%; 
+    max-width: 400px;
     border-radius: 20px;
 }
 
@@ -40,23 +42,18 @@ section p {
     color: #686868;
 }
 
-/* Media query for smaller screens */
+
 @media (max-width: 650px) {
     section {
+        width: 79%; 
         padding: 15px;
-        max-width: 320px; /* Slightly smaller max width for smaller screens */
-    }
-
-    section img {
-        width: 100%; /* Image adapts to section size */
-        height: auto;
     }
 
     section h1 {
-        font-size: 0.9em; /* Reduced font size */
+        font-size: 1.5em; 
     }
 
     section p {
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
 }
