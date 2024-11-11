@@ -40,7 +40,7 @@ section p {
 /* Media query for smaller screens */
 @media (max-width: 600px) {
     section {
-        width: 90%; /* Make section width responsive */
+        width: 80%; /* Make section width responsive */
         padding: 10px; /* Reduce padding */
     }
 
@@ -49,10 +49,10 @@ section p {
     }
 
     section h1 {
-        font-size: 150%; /* Adjust font size */
+        font-size: 130%; /* Adjust font size */
     }
 
     section p {
-        font-size: 90%; /* Adjust paragraph font size */
+        font-size: 80%; /* Adjust paragraph font size */
     }
 }
