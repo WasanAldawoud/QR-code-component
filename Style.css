@@ -1,3 +1,4 @@
+/* Existing styles */
 body {
     background: #d5e1ef;
 }
@@ -34,4 +35,24 @@ section p {
     text-align: center;
     margin-top: 2px;
     color: #686868;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    section {
+        width: 90%; /* Make section width responsive */
+        padding: 10px; /* Reduce padding */
+    }
+
+    section img {
+        width: 100%; /* Make image responsive */
+    }
+
+    section h1 {
+        font-size: 150%; /* Adjust font size */
+    }
+
+    section p {
+        font-size: 90%; /* Adjust paragraph font size */
+    }
 }
