@@ -57,14 +57,14 @@ section p {
         font-size: 0.9em;
     }
 }
-@media (max-width: 320px) {
+@media (max-width: 321px) {
     section {
-        width: 90%; 
+        width: 300px; 
         padding: 10px;
     }
 
     section h1 {
-        font-size: 1.2em; 
+        font-size: 1.1em; 
         padding: 0 5px;
     }
 
