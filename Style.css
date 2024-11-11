@@ -39,19 +39,21 @@ section p {
 /* Media query for smaller screens */
 @media (max-width: 650px) {
     section {
-        width: 50%; 
+        width: 90%; /* Change to a percentage for better responsiveness */
+        max-width: 400px; /* Set a maximum width to prevent it from becoming too wide */
         padding: 10px;
     }
 
     section img {
         width: 100%; 
+        height: auto; /* Ensure the image maintains its aspect ratio */
     }
 
     section h1 {
-        font-size: 110%; 
+        font-size: 120%; /* Adjust font size for better readability */
     }
 
     section p {
-        font-size: 80%;
+        font-size: 90%; /* Adjust font size for better readability */
     }
 }
