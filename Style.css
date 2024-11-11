@@ -57,3 +57,24 @@ section p {
         font-size: 0.9em;
     }
 }
+@media (max-width: 320px) {
+    section {
+        width: 90%; 
+        padding: 10px;
+    }
+
+    section h1 {
+        font-size: 1.2em; 
+        padding: 0 5px;
+    }
+
+    section p {
+        font-size: 0.8em; 
+    }
+
+    section img {
+        width: 100%; 
+        max-width: 280px; 
+    }
+}
+Expl
