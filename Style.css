@@ -1,5 +1,8 @@
+/* General Styles */
 body {
     background: #d5e1ef;
+    margin: 0;
+    padding: 0;
 }
 
 section {
@@ -11,7 +14,7 @@ section {
     background: #fff;
     border-radius: 20px;
     border: 2px solid #fff;
-    width: 410px;
+    max-width: 410px; /* Limit width without stretching on larger screens */
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -19,14 +22,15 @@ section {
 }
 
 section img {
-    width: 400px;
+    width: 100%;
+    max-width: 400px; /* Keep image within the section width */
     border-radius: 20px;
 }
 
 section h1 {
     text-align: center;
-    font-weight: bolder;
-    font-size: 190%;
+    font-weight: bold;
+    font-size: 1.9em;
     padding: 0 10px;
 }
 
@@ -39,21 +43,20 @@ section p {
 /* Media query for smaller screens */
 @media (max-width: 650px) {
     section {
-        width:50%; 
-        max-width: 400px; 
-        padding: 10px;
+        padding: 15px;
+        max-width: 350px; /* Slightly smaller max width for smaller screens */
     }
 
     section img {
-        width: 95%; 
-        height: auto; 
+        width: 100%; /* Image adapts to section size */
+        height: auto;
     }
 
     section h1 {
-        font-size: 100%; 
+        font-size: 0.9em; /* Reduced font size */
     }
 
     section p {
-        font-size: 80%;
+        font-size: 0.8em;
     }
 }
