@@ -11,4 +11,4 @@ Easy to customize and extend for further development.
 Technologies Used
 HTML5
 CSS3
-Gett
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5a84e942-197b-47a3-b724-fbfccc259602/deploy-status)](https://app.netlify.com/sites/charming-cobbler-8e5da5/deploys)
