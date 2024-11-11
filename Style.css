@@ -1,4 +1,3 @@
-/* Existing styles */
 body {
     background: #d5e1ef;
 }
@@ -15,8 +14,8 @@ section {
     width: 410px;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center children horizontally */
-    justify-content: center; /* Center children vertically */
+    align-items: center; 
+    justify-content: center; 
 }
 
 section img {
@@ -40,19 +39,19 @@ section p {
 /* Media query for smaller screens */
 @media (max-width: 600px) {
     section {
-        width: 80%; /* Make section width responsive */
-        padding: 10px; /* Reduce padding */
+        width: 60%; 
+        padding: 10px;
     }
 
     section img {
-        width: 100%; /* Make image responsive */
+        width: 100%; 
     }
 
     section h1 {
-        font-size: 130%; /* Adjust font size */
+        font-size: 130%; 
     }
 
     section p {
-        font-size: 80%; /* Adjust paragraph font size */
+        font-size: 80%;
     }
 }
